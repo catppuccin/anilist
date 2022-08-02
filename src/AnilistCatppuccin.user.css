@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AniList Catppuccin
 @namespace      github.com/catppuccin/anilist
-@version        1.0.1
+@version        1.0.2
 @description    Soothing pastel theme for AniList
 @author         Catppuccin
 @updateURL      https://github.com/catppuccin/anilist/raw/main/src/AnilistCatppuccin.user.css
@@ -503,7 +503,6 @@
 .user-page-unscoped.pink .progress .bar {
      background: linear-gradient(270deg,rgb($pink), rgb($pink));
 }
-
 /*-----------------GRAY FIXES-----------------*/
 .user-page-unscoped.gray {
     --color-blue: $overlay1 !important;
@@ -513,11 +512,11 @@
 .user-page-unscoped.gray .progress .bar {
      background: linear-gradient(270deg,rgb($overlay1), rgb($overlay1));
 }
-}
 
 
 
 /*--------------FOOTER (It's hardcoded idk why anilist dumdum)----------*/
 .footer[data-v-a5dce466], .landing[data-v-3428d21c] {
     background-color: var(--color-background);
+}
 }

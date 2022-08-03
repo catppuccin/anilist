@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AniList Catppuccin
 @namespace      github.com/catppuccin/anilist
-@version        1.0.2
+@version        1.0.3
 @description    Soothing pastel theme for AniList
 @author         Catppuccin
 @updateURL      https://github.com/catppuccin/anilist/raw/main/src/AnilistCatppuccin.user.css
@@ -185,6 +185,10 @@
 		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
 			background: rgb($rosewater) !important;
 		}
+        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
+            color: rgb($rosewater);
+        }
+        $accent = $rosewater
     } else if (accent=="Flamingo") {
         :root {
             --color-blue: $flamingo !important;
@@ -194,6 +198,10 @@
 		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
 			background: rgb($flamingo) !important;
 		}
+        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
+            color: rgb($flamingo);
+        }
+        $accent = $flamingo
     } else if (accent=="Pink") {
         :root {
             --color-blue: $pink !important;
@@ -203,6 +211,10 @@
 		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
 			background: rgb($pink) !important;
 		}
+        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
+            color: rgb($pink);
+        }
+        $accent = $pink
     } else if (accent=="Mauve") {
         :root {
             --color-blue: $mauve !important;
@@ -212,6 +224,10 @@
 		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
 			background: rgb($mauve) !important;
 		}
+        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
+            color: rgb($mauve);
+        }
+        $accent = $mauve
     } else if (accent=="Red") {
         :root {
             --color-blue: $red !important;
@@ -221,6 +237,10 @@
 		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
 			background: rgb($red) !important;
 		}
+        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
+            color: rgb($red);
+        }
+        $accent = $red
     } else if (accent=="Maroon") {
         :root {
             --color-blue: $maroon !important;
@@ -230,6 +250,10 @@
 		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
 			background: rgb($maroon) !important;
 		}
+        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
+            color: rgb($maroon);
+        }
+        $accent = $maroon
     } else if (accent=="Peach") {
         :root {
             --color-blue: $peach !important;
@@ -239,6 +263,10 @@
 		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
 			background: rgb($peach) !important;
 		}
+        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
+            color: rgb($peach);
+        }
+        $accent = $peach
     } else if (accent=="Yellow") {
         :root {
             --color-blue: $yellow !important;
@@ -248,6 +276,10 @@
 		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
 			background: rgb($yellow) !important;
 		}
+        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
+            color: rgb($yellow);
+        }
+        $accent = $yellow
     } else if (accent=="Green") {
         :root {
             --color-blue: $green !important;
@@ -257,6 +289,10 @@
 		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
 			background: rgb($green) !important;
 		}
+        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
+            color: rgb($green);
+        }
+        $accent = $green
     } else if (accent=="Teal") {
         :root {
             --color-blue: $teal !important;
@@ -266,6 +302,10 @@
 		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
 			background: rgb($teal) !important;
 		}
+        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
+            color: rgb($teal);
+        }
+        $accent = $teal
     } else if (accent=="Blue") {
         :root {
             --color-blue: $blue !important;
@@ -275,6 +315,10 @@
 		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
 			background: rgb($blue) !important;
 		}
+        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
+            color: rgb($blue);
+        }
+        $accent = $blue
     } else if (accent=="Sapphire") {
         :root {
             --color-blue: $sapphire !important;
@@ -284,6 +328,10 @@
 		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
 			background: rgb($sapphire) !important;
 		}
+        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
+            color: rgb($sapphire);
+        }
+        $accent = $sapphire
     } else if (accent=="Sky") {
         :root {
             --color-blue: $sky !important;
@@ -293,6 +341,10 @@
 		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
 			background: rgb($sky) !important;
 		}
+        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
+            color: rgb($sky);
+        }
+        $accent = $sky
     } else if (accent=="Lavender") {
         :root {
             --color-blue: $lavender !important;
@@ -302,6 +354,10 @@
 		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
 			background: rgb($lavender) !important;
 		}
+        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
+            color: rgb($lavender);
+        }
+        $accent = $lavender
     }  else if (accent=="Gray") {
         :root {
             --color-blue: $subtext0 !important;
@@ -311,6 +367,10 @@
 		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
 			background: rgb($subtext0) !important;
 		}
+        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
+            color: rgb($subtext0);
+        }
+        $accent = $subtext0
     }
 
     /*----------BASE COLORS FOR ANILIST----------*/
@@ -527,5 +587,25 @@
 /*--Reset button in notifications-----*/
 .reset-btn {
     color: rgb($base) !important;
+}
+/*------------IMAGE COVER------------*/
+.cover .image-text, .plus-progress {
+    color: rgb($text) !important;
+}
+/*--------Settings button--------*/
+.settings[data-v-3deab077] .button {
+    color: rgb($crust);
+}
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-radio__input.is-checked .el-radio__inner {
+    background-color: rgb($accent);
+    border-color: rgb($accent);
+}
+.el-checkbox__inner:after {
+    border-color: rgb($crust);
+    border-width: 2px;
+    left: 3px;
+}
+.el-radio__input.is-checked+.el-radio__label {
+    color: rgb($accent);
 }
 }

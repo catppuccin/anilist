@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://anilist.co">AniList</a>
+	Catppuccin for <a href="https://anilist.co">AniList</a>/<a href="https://anichart.net">AniChart</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -12,7 +12,10 @@
 </p>
 
 <p align="center">
-	<img src="assets/preview.png"/>
+	<img src="assets/anilistpreview.png"/>
+</p>
+<p align="center">
+	<img src="assets/anichartpreview.png"/>
 </p>
 
 ## Usage
@@ -21,7 +24,7 @@
 2. Then install with Stylus (click on the link):
   - [🌻 Catppuccin for AniList](https://github.com/catppuccin/anilist/raw/main/src/AnilistCatppuccin.user.css)
 3. Choose you theme and accent color by Setting Theme in Stylus Options
-
+4. ⚠️ Note: This theme applies to [AniChart](https://anichart.net) as well, which is an extension of AniList.
 
 ## 💝 Thanks to
 

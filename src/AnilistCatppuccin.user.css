@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AniList Catppuccin
 @namespace      github.com/catppuccin/anilist
-@version        1.0.3
+@version        2.0.0
 @description    Soothing pastel theme for AniList
 @author         Catppuccin
 @updateURL      https://github.com/catppuccin/anilist/raw/main/src/AnilistCatppuccin.user.css
@@ -10,7 +10,7 @@
 @var select accent "Accent" ["Rosewater*", "Flamingo", "Pink", "Mauve", "Red", "Maroon", "Peach", "Yellow", "Green", "Teal", "Blue", "Sapphire", "Sky", "Lavender", "Gray"]
 @var select contrast-color "Contrast Color" ["Rosewater", "Flamingo", "Pink", "Mauve", "Red*", "Maroon", "Peach", "Yellow", "Green", "Teal", "Blue", "Sapphire", "Sky", "Lavender", "Gray"]
 ==/UserStyle== */
-@-moz-document domain("anilist.co") {
+@-moz-document domain("anilist.co"), domain("anichart.net") {
 
 	if (theme=="Latte") {
 
@@ -639,6 +639,24 @@
     left: 3px;
 }
 .el-radio__input.is-checked+.el-radio__label {
+    color: rgb($accent);
+}
+/*--------HIDE SCROLLBAR IN BIO-----*/
+.section::-webkit-scrollbar {
+    display: none;
+}
+.section {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+/*--------ANICHART SPECIFIC TWEAKS----*/
+.nav[data-v-e2f25004] {
+    background: rgb($crust);
+}
+.season[data-v-e2f25004], .charts .label[data-v-e2f25004], .charts .svg-icon[data-v-e2f25004], .section:first-of-type .section-heading[data-v-309146c2], a.title[data-v-09928904] {
+    color: rgb($text);
+}
+.season.router-link-active[data-v-e2f25004], .charts a:hover .svg-icon[data-v-e2f25004], .season[data-v-e2f25004]:hover {
     color: rgb($accent);
 }
 }

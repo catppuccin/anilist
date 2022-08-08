@@ -656,7 +656,7 @@
 .season[data-v-e2f25004], .charts .label[data-v-e2f25004], .charts .svg-icon[data-v-e2f25004], .section:first-of-type .section-heading[data-v-309146c2], a.title[data-v-09928904] {
     color: rgb($text);
 }
-.season.router-link-active[data-v-e2f25004], .charts a:hover .svg-icon[data-v-e2f25004], .season[data-v-e2f25004]:hover {
+.season.router-link-active[data-v-e2f25004], .charts a:hover .svg-icon[data-v-e2f25004], .season[data-v-e2f25004]:hover, .charts .router-link-active .svg-icon[data-v-e2f25004] {
     color: rgb($accent);
 }
 }

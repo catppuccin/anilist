@@ -422,7 +422,7 @@
         --color-text: $text;
         --color-text-light: $subtext1;
         --color-text-lighter: $subtext0;
-        --color-text-bright: $overlay2;
+        --color-text-bright: $text;
         --color-blue: $blue;
         --color-blue-dim: $sapphire;
         --color-white: 255,255,255;

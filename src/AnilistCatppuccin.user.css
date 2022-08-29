@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AniList Catppuccin
 @namespace      github.com/catppuccin/anilist
-@version        2.0.0
+@version        2.0.4
 @description    Soothing pastel theme for AniList
 @author         Catppuccin
 @updateURL      https://github.com/catppuccin/anilist/raw/main/src/AnilistCatppuccin.user.css
@@ -609,7 +609,8 @@
      background: linear-gradient(270deg,rgb($overlay1), rgb($overlay1));
 }
 
-
+/*---------SCORE TWEAKS--------------*/
+.score[data-v-5ca094da] { color: rgb($base); }
 
 /*--------------FOOTER (It's hardcoded idk why anilist dumdum)----------*/
 .footer[data-v-a5dce466], .landing[data-v-3428d21c] {
@@ -619,6 +620,10 @@
 /*------------------MISC EDITS--------------------*/
 /*--Reset button in notifications-----*/
 .reset-btn {
+    color: rgb($base) !important;
+}
+/* Publish Button in Replies and Messages */
+.save {
     color: rgb($base) !important;
 }
 /*------------IMAGE COVER------------*/
@@ -659,4 +664,17 @@
 .season.router-link-active[data-v-e2f25004], .charts a:hover .svg-icon[data-v-e2f25004], .season[data-v-e2f25004]:hover, .charts .router-link-active .svg-icon[data-v-e2f25004] {
     color: rgb($accent);
 }
+.settings[data-v-3deab077] .button.danger { color: rgb($base); }
+/* AUTOMAIL TWEAK */
+.site-theme-dark .el-popper .el-dropdown-menu__item:focus, .el-popper .el-dropdown-menu__item:not(.is-disabled):hover {
+    color: rgb($accent) !important;
+}
+.hohMediaScore { font-size: 90%; font-family: Overpass; border: 2px solid rgb($surface0); padding: 4px; border-radius: 10px; margin-left: 0px; background-color: rgb($base); color: rgb($accent); }
+    .filter-group.compare-btn, .hohButton { color: rgb($base); }
+.hohButton { background-color: rgb($accent); }
+.medialist.table .entry:hover, .medialist.table .entry .title a:hover, .compare-btn[data-v-170179fc]:hover { color: rgb($base); }
+.hohCompare table { background-color: rgb($crust);  }
+    .hohAnimeTable, .hohAnimeTable td, .hohUserRow td, .hohUserRow th, .hohHeaderRow td, .hohHeaderRow th { border: 2px solid rgb($surface0) !important; }
+    .hohUserRow td { border-top: 4px solid rgb($surface0) !important; }
+   .hohUserRow tr { border-right: 4px solid rgb($surface0) !important; }
 }

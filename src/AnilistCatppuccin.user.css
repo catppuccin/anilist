@@ -548,17 +548,17 @@
     }
     .user-page-unscoped.green .progress .bar {
         background: linear-gradient(270deg,rgb($green), rgb($green));
-  }
+    }
 
     /*-----------------BLUE FIXES-----------------*/
     .user-page-unscoped.blue {
         --color-blue: $blue;
        --color-blue-dim: $blue;
        --color-overlay: $crust;
-   }
+    }
    .user-page-unscoped.purple .progress .bar {
          background: linear-gradient(270deg,rgb($blue), rgb($blue));
-   }
+    }
 
     /*-----------------PURPLE FIXES-----------------*/
     .user-page-unscoped.purple {
@@ -575,106 +575,116 @@
         --color-blue: $peach !important;
        --color-blue-dim: $peach;
        --color-overlay: $crust;
-   }
+    }
    .user-page-unscoped.orange .progress .bar {
          background: linear-gradient(270deg,rgb($peach), rgb($peach));
-   }
+    }
 
     /*-----------------RED FIXES-----------------*/
     .user-page-unscoped.red {
         --color-blue: $red !important;
        --color-blue-dim: $red;
        --color-overlay: $crust;
-   }
+    }
    .user-page-unscoped.red .progress .bar {
          background: linear-gradient(270deg,rgb($red), rgb($red));
-   }
+    }
 
-   /*-----------------PINK FIXES-----------------*/
-   .user-page-unscoped.pink {
+    /*-----------------PINK FIXES-----------------*/
+    .user-page-unscoped.pink {
     --color-blue: $pink !important;
    --color-blue-dim: $pink;
    --color-overlay: $crust;
-}
-.user-page-unscoped.pink .progress .bar {
+    }
+    .user-page-unscoped.pink .progress .bar {
      background: linear-gradient(270deg,rgb($pink), rgb($pink));
-}
-/*-----------------GRAY FIXES-----------------*/
-.user-page-unscoped.gray {
+    }
+    /*-----------------GRAY FIXES-----------------*/
+    .user-page-unscoped.gray {
     --color-blue: $overlay1 !important;
    --color-blue-dim: $overlay1;
    --color-overlay: $crust;
-}
-.user-page-unscoped.gray .progress .bar {
+    }
+    .user-page-unscoped.gray .progress .bar {
      background: linear-gradient(270deg,rgb($overlay1), rgb($overlay1));
-}
+    }
 
-/*---------SCORE TWEAKS--------------*/
-.score[data-v-5ca094da] { color: rgb($base); }
+    /*---------SCORE TWEAKS--------------*/
+    .score[data-v-5ca094da] { color: rgb($base); }
 
-/*--------------FOOTER (It's hardcoded idk why anilist dumdum)----------*/
-.footer[data-v-a5dce466], .landing[data-v-3428d21c] {
-    background-color: var(--color-background);
-}
+    /*--------------FOOTER (It's hardcoded idk why anilist dumdum)----------*/
+    .footer[data-v-a5dce466], .landing[data-v-3428d21c] {
+        background-color: var(--color-background);
+    }
 
-/*------------------MISC EDITS--------------------*/
-/*--Reset button in notifications-----*/
-.reset-btn {
-    color: rgb($base) !important;
-}
-/* Publish Button in Replies and Messages */
-.save {
-    color: rgb($base) !important;
-}
-/*------------IMAGE COVER------------*/
-.cover .image-text, .plus-progress {
-    color: rgb($text) !important;
-}
-/*--------Settings button--------*/
-.settings[data-v-3deab077] .button {
-    color: rgb($crust);
-}
-.el-checkbox__input.is-checked .el-checkbox__inner, .el-radio__input.is-checked .el-radio__inner {
-    background-color: rgb($accent);
-    border-color: rgb($accent);
-}
-.el-checkbox__inner:after {
-    border-color: rgb($crust);
-    border-width: 2px;
-    left: 3px;
-}
-.el-radio__input.is-checked+.el-radio__label {
-    color: rgb($accent);
-}
-/*--------HIDE SCROLLBAR IN BIO-----*/
-.section::-webkit-scrollbar {
-    display: none;
-}
-.section {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-/*--------ANICHART SPECIFIC TWEAKS----*/
-.nav[data-v-e2f25004] {
-    background: rgb($crust);
-}
-.season[data-v-e2f25004], .charts .label[data-v-e2f25004], .charts .svg-icon[data-v-e2f25004], .section:first-of-type .section-heading[data-v-309146c2], a.title[data-v-09928904] {
-    color: rgb($text);
-}
-.season.router-link-active[data-v-e2f25004], .charts a:hover .svg-icon[data-v-e2f25004], .season[data-v-e2f25004]:hover, .charts .router-link-active .svg-icon[data-v-e2f25004] {
-    color: rgb($accent);
-}
-.settings[data-v-3deab077] .button.danger { color: rgb($base); }
-/* AUTOMAIL TWEAK */
-.site-theme-dark .el-popper .el-dropdown-menu__item:focus, .el-popper .el-dropdown-menu__item:not(.is-disabled):hover {
-    color: rgb($accent) !important;
-}
-.hohMediaScore { font-size: 90%; font-family: Overpass; border: 2px solid rgb($surface0); padding: 4px; border-radius: 10px; margin-left: 0px; background-color: rgb($base); color: rgb($accent); }
-    .filter-group.compare-btn, .hohButton { color: rgb($base); }
-.hohButton { background-color: rgb($accent); }
-.medialist.table .entry:hover, .medialist.table .entry .title a:hover, .compare-btn[data-v-170179fc]:hover { color: rgb($base); }
-.hohCompare table { background-color: rgb($crust);  }
-    .hohAnimeTable, .hohAnimeTable td, .hohUserRow td, .hohUserRow th, .hohHeaderRow td, .hohHeaderRow th { border: 2px solid rgb($surface0) !important; }
-    .hohUserRow td { border-top: 4px solid rgb($surface0) !important; }
-   .hohUserRow tr { border-right: 4px solid rgb($surface0) !important; }
+    /*------------------MISC EDITS--------------------*/
+    /*--Reset button in notifications-----*/
+    .reset-btn {
+        color: rgb($base) !important;
+    }
+    /* Publish Button in Replies and Messages */
+    .save {
+        color: rgb($base) !important;
+    }
+    /*------------IMAGE COVER------------*/
+    .cover .image-text, .plus-progress {
+        color: rgb($text) !important;
+    }
+
+    .entry .plus-progress, .medialist.table .entry .edit { color: rgb($base) !important;}
+    /*--------Settings button--------*/
+    .settings[data-v-3deab077] .button {
+        color: rgb($crust);
+    }
+    .el-checkbox__input.is-checked .el-checkbox__inner, .el-radio__input.is-checked .el-radio__inner {
+        background-color: rgb($accent);
+        border-color: rgb($accent);
+    }
+    .el-checkbox__inner:after {
+        border-color: rgb($crust);
+        border-width: 2px;
+        left: 3px;
+    }
+    .el-radio__input.is-checked+.el-radio__label {
+        color: rgb($accent);
+    }
+    /*--------HIDE SCROLLBAR IN BIO-----*/
+    .section::-webkit-scrollbar {
+        display: none;
+    }
+    .section {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    /*--------ANICHART SPECIFIC TWEAKS----*/
+    .nav[data-v-e2f25004] {
+        background: rgb($crust);
+    }
+    .season[data-v-e2f25004], .charts .label[data-v-e2f25004], .charts .svg-icon[data-v-e2f25004], .section:first-of-type .section-heading[data-v-309146c2], a.title[data-v-09928904] {
+        color: rgb($text);
+    }
+    .season.router-link-active[data-v-e2f25004], .charts a:hover .svg-icon[data-v-e2f25004], .season[data-v-e2f25004]:hover, .charts .router-link-active .svg-icon[data-v-e2f25004] {
+        color: rgb($accent);
+    }
+    .settings[data-v-3deab077] .button.danger { color: rgb($base); }
+    /* AUTOMAIL TWEAK */
+    .site-theme-dark .el-popper .el-dropdown-menu__item:focus, .el-popper .el-dropdown-menu__item:not(.is-disabled):hover {
+        color: rgb($accent) !important;
+    }
+    .hohMediaScore { font-size: 90%; font-family: Overpass; border: 2px solid rgb($surface0); padding: 4px; border-radius: 10px; margin-left: 0px; background-color: rgb($base); color: rgb($accent); }
+        .filter-group.compare-btn, .hohButton { color: rgb($base); }
+    .hohButton { background-color: rgb($accent); }
+    .medialist.table .entry:hover, .medialist.table .entry .title a:hover, .compare-btn[data-v-170179fc]:hover { color: rgb($base); }
+    .hohCompare table { background-color: rgb($crust);  }
+        .hohAnimeTable, .hohAnimeTable td, .hohUserRow td, .hohUserRow th, .hohHeaderRow td, .hohHeaderRow th { border: 2px solid rgb($surface0) !important; }
+        .hohUserRow td { border-top: 4px solid rgb($surface0) !important; }
+    .hohUserRow tr { border-right: 4px solid rgb($surface0) !important; }
+    /*---------ANILIST LIKER PLUGIN------*/
+    #AnilistLikerPlugin .mmd2 {
+        font-style: normal !important;
+        font-weight: 700;
+        font-family: Overpass;
+    }
+    #AnilistLikerPlugin  .btntop { margin-bottom: -4px; margin-top: 5px; }
+    #AnilistLikerPlugin .btnbottom { margin-top: -2px; }
 }

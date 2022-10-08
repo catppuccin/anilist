@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AniList Catppuccin
 @namespace      github.com/catppuccin/anilist
-@version        2.0.5
+@version        2.0.6
 @description    Soothing pastel theme for AniList
 @author         Catppuccin
 @updateURL      https://github.com/catppuccin/anilist/raw/main/src/AnilistCatppuccin.user.css
@@ -176,202 +176,48 @@
         $crust =         22, 19, 32
 
 	}
-
+/*----------------------ACCENT COLORS-------------------------*/
     if (accent=="Rosewater") {
-        :root {
-            --color-blue: $rosewater !important;
-            --color-blue-dim: $rosewater !important;
-            --color-overlay: $crust;
-        }
-		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
-			background: rgb($rosewater) !important;
-		}
-        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
-            color: rgb($rosewater);
-        }
         $accent = $rosewater
     } else if (accent=="Flamingo") {
-        :root {
-            --color-blue: $flamingo !important;
-            --color-blue-dim: $flamingo !important;
-            --color-overlay: $crust;
-        }
-		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
-			background: rgb($flamingo) !important;
-		}
-        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
-            color: rgb($flamingo);
-        }
         $accent = $flamingo
     } else if (accent=="Pink") {
-        :root {
-            --color-blue: $pink !important;
-            --color-blue-dim: $pink !important;
-            --color-overlay: $crust;
-        }
-		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
-			background: rgb($pink) !important;
-		}
-        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
-            color: rgb($pink);
-        }
         $accent = $pink
     } else if (accent=="Mauve") {
-        :root {
-            --color-blue: $mauve !important;
-            --color-blue-dim: $mauve !important;
-            --color-overlay: $crust;
-        }
-		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
-			background: rgb($mauve) !important;
-		}
-        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
-            color: rgb($mauve);
-        }
         $accent = $mauve
     } else if (accent=="Red") {
-        :root {
-            --color-blue: $red !important;
-            --color-blue-dim: $red !important;
-            --color-overlay: $crust;
-        }
-		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
-			background: rgb($red) !important;
-		}
-        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
-            color: rgb($red);
-        }
         $accent = $red
     } else if (accent=="Maroon") {
-        :root {
-            --color-blue: $maroon !important;
-            --color-blue-dim: $maroon !important;
-            --color-overlay: $crust;
-        }
-		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
-			background: rgb($maroon) !important;
-		}
-        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
-            color: rgb($maroon);
-        }
         $accent = $maroon
     } else if (accent=="Peach") {
-        :root {
-            --color-blue: $peach !important;
-            --color-blue-dim: $peach !important;
-            --color-overlay: $crust;
-        }
-		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
-			background: rgb($peach) !important;
-		}
-        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
-            color: rgb($peach);
-        }
         $accent = $peach
     } else if (accent=="Yellow") {
-        :root {
-            --color-blue: $yellow !important;
-            --color-blue-dim: $yellow !important;
-            --color-overlay: $crust;
-        }
-		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
-			background: rgb($yellow) !important;
-		}
-        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
-            color: rgb($yellow);
-        }
         $accent = $yellow
     } else if (accent=="Green") {
-        :root {
-            --color-blue: $green !important;
-            --color-blue-dim: $green !important;
-            --color-overlay: $crust;
-        }
-		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
-			background: rgb($green) !important;
-		}
-        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
-            color: rgb($green);
-        }
         $accent = $green
     } else if (accent=="Teal") {
-        :root {
-            --color-blue: $teal !important;
-            --color-blue-dim: $teal !important;
-            --color-overlay: $crust;
-        }
-		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
-			background: rgb($teal) !important;
-		}
-        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
-            color: rgb($teal);
-        }
         $accent = $teal
     } else if (accent=="Blue") {
-        :root {
-            --color-blue: $blue !important;
-            --color-blue-dim: $blue !important;
-            --color-overlay: $crust;
-        }
-		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
-			background: rgb($blue) !important;
-		}
-        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
-            color: rgb($blue);
-        }
         $accent = $blue
     } else if (accent=="Sapphire") {
-        :root {
-            --color-blue: $sapphire !important;
-            --color-blue-dim: $sapphire !important;
-            --color-overlay: $crust;
-        }
-		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
-			background: rgb($sapphire) !important;
-		}
-        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
-            color: rgb($sapphire);
-        }
         $accent = $sapphire
     } else if (accent=="Sky") {
-        :root {
-            --color-blue: $sky !important;
-            --color-blue-dim: $sky !important;
-            --color-overlay: $crust !important;
-        }
-		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
-			background: rgb($sky) !important;
-		}
-        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
-            color: rgb($sky);
-        }
         $accent = $sky
     } else if (accent=="Lavender") {
-        :root {
-            --color-blue: $lavender !important;
-            --color-blue-dim: $lavender !important;
-            --color-overlay: $crust;
-        }
-		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
-			background: rgb($lavender) !important;
-		}
-        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
-            color: rgb($lavender);
-        }
         $accent = $lavender
     }  else if (accent=="Gray") {
-        :root {
-            --color-blue: $subtext0 !important;
-            --color-blue-dim: $subtext0 !important;
-            --color-overlay: $crust;
-        }
-		.signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
-			background: rgb($subtext0) !important;
-		}
-        h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label {
-            color: rgb($subtext0);
-        }
         $accent = $subtext0
+    }
+    :root {
+        --color-blue: $accent !important;
+        --color-blue-dim: $accent !important;
+        --color-overlay: $crust;
+    }
+    .signup[data-v-62eacfff], .join-btn[data-v-3428d21c] {
+        background: rgb($accent) !important;
+    }
+    h2[data-v-a5dce466], .el-checkbox__input.is-checked+.el-checkbox__label, h2, h2[data-v-0f519cab] {
+        color: rgb($accent);
     }
 /*----------------------LIKED COLORS-------------------------*/
     if (contrast-color=="Rosewater") {
@@ -613,8 +459,8 @@
     .score[data-v-5ca094da] { color: rgb($base); }
 
     /*--------------FOOTER (It's hardcoded idk why anilist dumdum)----------*/
-    .footer[data-v-a5dce466], .landing[data-v-3428d21c] {
-        background-color: var(--color-background);
+    .footer[data-v-a5dce466], .landing[data-v-3428d21c], .footer  {
+        background-color: var(--color-background) !important;
     }
 
     /*------------------MISC EDITS--------------------*/

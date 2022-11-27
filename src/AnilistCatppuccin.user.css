@@ -459,7 +459,7 @@
     .score[data-v-5ca094da] { color: rgb($base); }
 
     /*--------------FOOTER (It's hardcoded idk why anilist dumdum)----------*/
-    .footer[data-v-a5dce466], .landing[data-v-3428d21c], .footer  {
+    .footer[data-v-a5dce466], .landing[data-v-3428d21c], .footer, .footer[data-v-0f519cab]  {
         background-color: var(--color-background) !important;
     }
 

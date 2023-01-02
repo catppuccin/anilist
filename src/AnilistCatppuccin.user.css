@@ -6,7 +6,7 @@
 @author         Catppuccin
 @updateURL      https://github.com/catppuccin/anilist/raw/main/src/AnilistCatppuccin.user.css
 @preprocessor   stylus
-@var select theme "Theme" ["Latte", "Frappe", "Macchiato", "Mocha*", "Mocha-Old"]
+@var select theme "Theme" ["Latte", "Frappe", "Macchiato", "Mocha*"]
 @var select accent "Accent" ["Rosewater*", "Flamingo", "Pink", "Mauve", "Red", "Maroon", "Peach", "Yellow", "Green", "Teal", "Blue", "Sapphire", "Sky", "Lavender", "Gray"]
 @var select contrast-color "Contrast Color" ["Rosewater", "Flamingo", "Pink", "Mauve", "Red*", "Maroon", "Peach", "Yellow", "Green", "Teal", "Blue", "Sapphire", "Sky", "Lavender", "Gray"]
 ==/UserStyle== */

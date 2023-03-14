@@ -12,11 +12,46 @@
 </p>
 
 <p align="center">
-	<img src="assets/anilistpreview.png"/>
+	<img src="assets/anilist/preview.webp"/>
 </p>
+
+<details>
+<summary>🌻 Latte</summary>
+<img src="assets/anilist/latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="assets/anilist/frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="assets/anilist/macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="assets/anilist/mocha.webp"/>
+</details>
+
 <p align="center">
-	<img src="assets/anichartpreview.png"/>
+	<img src="assets/anichart/preview.webp"/>
 </p>
+
+<details>
+<summary>🌻 Latte</summary>
+<img src="assets/anichart/latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="assets/anichart/frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="assets/anichart/macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="assets/anichart/mocha.webp"/>
+</details>
 
 ## Usage
 

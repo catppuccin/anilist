@@ -64,6 +64,7 @@
 ## 💝 Thanks to
 
 - [AnubisNekhet](https://github.com/AnubisNekhet)
+- [Isabel](https://github.com/isabelroses)
 
 &nbsp;
 

@@ -72,6 +72,10 @@
      */ & when not (@lookup = latte) {
         --color-blue-dim: #rgbify(desaturate(darken(@accent, 10%), 10%))[@rgb-raw];
       /* your non-latte specific code */
+        .nav[data-v-62eacfff], .solid[data-v-62eacfff], .transparent[data-v-62eacfff]:hover {
+          background: @mantle;
+          color: @text;
+        }
     }
 
     /* BASE VARIABLES */

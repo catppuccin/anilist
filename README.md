@@ -32,27 +32,6 @@
 <img src="assets/anilist/mocha.webp"/>
 </details>
 
-<p align="center">
-	<img src="assets/anichart/preview.webp"/>
-</p>
-
-<details>
-<summary>🌻 Latte</summary>
-<img src="assets/anichart/latte.webp"/>
-</details>
-<details>
-<summary>🪴 Frappé</summary>
-<img src="assets/anichart/frappe.webp"/>
-</details>
-<details>
-<summary>🌺 Macchiato</summary>
-<img src="assets/anichart/macchiato.webp"/>
-</details>
-<details>
-<summary>🌿 Mocha</summary>
-<img src="assets/anichart/mocha.webp"/>
-</details>
-
 ## Usage
 
 1. Install Stylus extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)

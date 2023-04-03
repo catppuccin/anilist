@@ -57,7 +57,7 @@
 
 1. Install Stylus extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)
 2. Then install with Stylus (click on the link):
-  - [🌻 Catppuccin for AniList](https://github.com/catppuccin/anilist/raw/main/src/AnilistCatppuccin.user.css)
+  - [🌻 Catppuccin for AniList](https://github.com/catppuccin/anilist/raw/main/src/catppuccin.user.css)
 3. Choose you theme and accent color by Setting Theme in Stylus Options
 4. ⚠️ Note: This theme applies to [AniChart](https://anichart.net) as well, which is an extension of AniList.
 

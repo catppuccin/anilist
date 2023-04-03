@@ -38,7 +38,9 @@
 2. Then install with Stylus (click on the link):
   - [🌻 Catppuccin for AniList](https://github.com/catppuccin/anilist/raw/main/src/AnilistCatppuccin.user.css)
 3. Choose you theme and accent color by Setting Theme in Stylus Options
-4. ⚠️ Note: This theme applies to [AniChart](https://anichart.net) as well, which is an extension of AniList.
+
+> **Note** <br>
+> This theme applies to [AniChart](https://anichart.net) as well, which is an extension of AniList.
 
 ## 💝 Thanks to
 

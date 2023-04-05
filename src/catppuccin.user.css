@@ -353,6 +353,10 @@ domain("anichart.net") {
             background: @accent !important;
             color: @base !important;
         }
+        .genre {
+            color: @base !important;
+        }
+
         /*----Tracking Status List Stuff----*/
         .site-theme-dark .list[data-v-5776f768],
         .el-icon-arrow-down:before {
@@ -509,9 +513,6 @@ domain("anichart.net") {
         }
         #AnilistLikerPlugin .btnbottom {
             margin-top: -2px;
-        }
-        .genre {
-            color: @base !important;
         }
     }
 }

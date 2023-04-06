@@ -2,7 +2,7 @@
 
 @name           Anilist Catppuccin
 @namespace      github.com/catppuccin/anilist
-@version        2.1.0
+@version        2.1.1
 @description    Soothing pastel theme for Anilist
 @author         Catppuccin
 @updateURL      https://github.com/catppuccin/Anilist/raw/main/src/catppuccin.user.css
@@ -436,6 +436,10 @@ domain("anichart.net") {
         .section {
             -ms-overflow-style: none;
             scrollbar-width: none;
+        }
+        /*--------REMOVE DROPDOWN SHADOWS-----*/
+        .dropdown.dropdown {
+            box-shadow: none;
         }
         /*--------ANICHART SPECIFIC TWEAKS----*/
         .nav[data-v-e2f25004] {

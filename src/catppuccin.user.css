@@ -895,6 +895,7 @@
         #AnilistLikerPlugin .btnbottom {
             margin-top: -2px;
         }
+		
         /*--------ANICHART SPECIFIC TWEAKS----*/
         .login[data-v-0d5bfbcd],
         .login[data-v-0d5bfbcd]:hover {
@@ -963,6 +964,20 @@
         }
         .hohUserRow tr {
             border-right: 4px solid @surface0 !important;
+        }
+		
+        /*---------ANILIST LIKER PLUGIN------*/
+        #AnilistLikerPlugin .mmd2 {
+            font-style: normal !important;
+            font-weight: 700;
+            font-family: Overpass;
+        }
+        #AnilistLikerPlugin .btntop {
+            margin-bottom: -4px;
+            margin-top: 5px;
+        }
+        #AnilistLikerPlugin .btnbottom {
+            margin-top: -2px;
         }
     }
 }
